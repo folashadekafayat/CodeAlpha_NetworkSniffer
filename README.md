@@ -52,27 +52,6 @@ print("Starting Network Sniffer...")
 sniff(prn=packet_callback, count=20)
 ```
 
----
-
-## How to Run
-
-Open terminal and run:
-
-```bash
-python sniffer.py
-```
-
----
-
-## Expected Output
-
-```bash
-Starting Network Sniffer...
-Ether / IP / TCP 192.168.1.5 > 142.250.190.78
-Ether / IP / UDP 8.8.8.8 > 192.168.1.5
-```
-
----
 
 ## Learning Outcome
 This project helped in understanding:
